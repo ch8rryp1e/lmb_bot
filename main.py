@@ -5,7 +5,7 @@ from handlers.basic_handlers import router
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token="8271703155:AAFyrVgKzMTbJVWs7BgBhiOYJwwlPUZ4bKs")
+bot = Bot(token="")
 dp = Dispatcher()
 
 async def main():
