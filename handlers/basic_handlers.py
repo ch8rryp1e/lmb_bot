@@ -98,7 +98,7 @@ async def cmd_start(message: types.Message, state: FSMContext):
     )
 
     builder = InlineKeyboardBuilder()
-    builder.button(text="Давайте начнём 🚀", callback_data="start_test")
+    builder.button(text="Давайте начнём ", callback_data="start_test")
     await message.answer(
         "Благодаря тестированию Вы сможете понять:\n\n"
         "1. Насколько полон Ваш гормональный ресурс, чтобы Вы оставались энергичной и красивой долгие годы.\n"
